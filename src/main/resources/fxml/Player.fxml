@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<VBox fx:id="id_vbMain" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uz.nurislom.controller.PlayerController">
+    <children>
+        <Pane prefHeight="25.0" prefWidth="800.0" style="-fx-background-color: #121212;">
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+            <padding>
+                <Insets bottom="25.0" />
+            </padding>
+        </Pane>
+        <MenuBar fx:id="id_mbMenuBar" prefWidth="800.0" style="-fx-background-color: GREY;">
+            <opaqueInsets>
+                <Insets top="25.0" />
+            </opaqueInsets>
+            <Menu fx:id="id_menuFile" mnemonicParsing="false" text="File">
+                <MenuItem mnemonicParsing="false" text="Close" />
+            </Menu>
+            <Menu fx:id="id_menuEdit" mnemonicParsing="false" text="Edit">
+                <MenuItem mnemonicParsing="false" text="Delete" />
+            </Menu>
+            <Menu fx:id="id_menuHelp" mnemonicParsing="false" text="Help">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                    <CheckMenuItem mnemonicParsing="false" text="Unspecified Action" />
+                </items>
+            </Menu>
+        </MenuBar>
+        <MediaView fx:id="id_mvMediaView" fitHeight="400.0" fitWidth="800.0">
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+        </MediaView>
+        <VBox prefHeight="350.0" prefWidth="800.0">
+            <children>
+                <JFXSlider fx:id="id_sliderTime" prefHeight="10.0" prefWidth="720.0">
+                    <VBox.margin>
+                        <Insets left="40.0" right="40.0" />
+                    </VBox.margin>
+                </JFXSlider>
+                <HBox alignment="CENTER" prefHeight="300.0" prefWidth="800.0" style="-fx-background-color: #a8a8a8;">
+                    <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #e1e1e1;">
+                     <children>
+                              <JFXButton fx:id="id_btnProtues" buttonType="RAISED" ripplerFill="BLACK" style="-fx-background-color: RED;" text="orqaga" />
+                              <JFXButton fx:id="id_btnPausePlay" buttonType="RAISED" ripplerFill="BLACK" style="-fx-background-color: RED;" text="pauza/play" />
+                              <JFXButton fx:id="id_btnNext" buttonType="RAISED" ripplerFill="BLACK" style="-fx-background-color: RED;" text="oldga" />
+                     </children>
+                  </HBox>
+                        <HBox fx:id="id_hbVolume" alignment="CENTER_LEFT" prefHeight="236.0" prefWidth="270.0" style="-fx-background-color: #f4f4f4;">
+                            <children>
+                                <JFXButton fx:id="id_btnVolume" buttonType="RAISED" ripplerFill="BLACK" style="-fx-background-color: RED;" text="ovoz" />
+                                <JFXSlider fx:id="id_sliderVolume" />
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #e1e1e1;">
+                            <children>
+                                <JFXButton fx:id="id_btnSpeed" buttonType="RAISED" ripplerFill="BLACK" style="-fx-background-color: RED;" text="speed" />
+                                <Label fx:id="id_lblSpeed" prefHeight="35.0" prefWidth="21.0" text="1x" />
+                        <JFXButton fx:id="id_btnFullScreen" buttonType="RAISED" ripplerFill="BLACK" style="-fx-background-color: RED;" text="Full" />
+                            </children>
+                        </HBox>
+                  <HBox alignment="CENTER" layoutX="481.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #f4f4f4;">
+                     <children>
+                        <Label fx:id="id_lblCurrentTime" prefHeight="54.0" prefWidth="64.0" text="Label" />
+                        <Label fx:id="id_lblLeftTime" prefHeight="54.0" prefWidth="64.0" text="Label" />
+                        <Label fx:id="id_lblTotalTime" prefHeight="54.0" prefWidth="64.0" text="Label" />
+                        <Label fx:id="id_lblFullTime1" layoutX="132.0" layoutY="101.0" prefHeight="54.0" prefWidth="64.0" text="Label" />
+                     </children>
+                  </HBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</VBox>

@@ -1,0 +1,11 @@
+.menu {
+    -fx-text-fill: WHITE; /* Matn rangini ko'k qilib o'rnatish */
+}
+.menu-bar {
+    -fx-background-color: #333; /* MenuBar fon rangi */
+}
+
+
+.menu-item {
+    -fx-text-fill: white; /* MenuItem matn rangi */
+}

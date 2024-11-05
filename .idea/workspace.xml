@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6fccb5c-0aa5-4919-99ff-8460b95d3eae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/nurislom/MyPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/nurislom/add/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/nurislom/add/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/nurislom/controller/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/nurislom/service/IPlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/nurislom/service/implement/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/libs/fx/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FixedWindowSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2oOQzre1WjqQxHarEd9E6uNngg8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/1. Java/MyPlayer/video",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/1. Java/MyPlayer/src/main/java/uz/nurislom/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43563217",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1. Java\MyPlayer\video" />
+      <recent name="E:\1. Java\MyPlayer\src\main\resources\libs\fx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyPlayer">
+    <configuration name="FixedWindowSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FixedWindowSize" />
+      <module name="uz.nurislom.controller.MyPlayer" />
+      <option name="VM_PARAMETERS" value="--module-path E:\OpenFX-SKD\javafx-sdk-23.0.1\lib --add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuBarStyleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.nurislom.add.MenuBarStyleExample" />
+      <module name="uz.nurislom.controller.MyPlayer" />
+      <option name="VM_PARAMETERS" value="--module-path E:\OpenFX-SKD\javafx-sdk-23.0.1\lib --add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.nurislom.add.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPlayer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="uz.nurislom.MyPlayer" />
+      <module name="uz.nurislom.controller.MyPlayer" />
+      <option name="VM_PARAMETERS" value="--module-path E:\OpenFX-SKD\javafx-sdk-23.0.1\lib --add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.nurislom.MyPlayer" />
+      <module name="uz.nurislom.controller.MyPlayer" />
+      <option name="VM_PARAMETERS" value="--module-path E:\OpenFX-SKD\javafx-sdk-23.0.1\lib --add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyPlayer" />
+      <item itemvalue="Application.MenuBarStyleExample" />
+      <item itemvalue="Application.FixedWindowSize" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MenuBarStyleExample" />
+        <item itemvalue="Application.MyPlayer" />
+        <item itemvalue="Application.FixedWindowSize" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6fccb5c-0aa5-4919-99ff-8460b95d3eae" name="Changes" comment="" />
+      <created>1730738410039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730738410039</updated>
+      <workItem from="1730738411289" duration="8866000" />
+      <workItem from="1730749455899" duration="14930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

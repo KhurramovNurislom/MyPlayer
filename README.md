@@ -1,1 +1,1 @@
-# MyPlayer
+# uz.nurislom.controller.MyPlayer1
